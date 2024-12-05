@@ -1,0 +1,37 @@
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    body {
+        margin-top: 10%; /* Reduz o espaço superior */
+        padding: 0 10px; /* Adiciona espaçamento lateral */
+    }
+
+    button {
+        width: 50%; /* Botões maiores para telas pequenas */
+        font-size: 16px; /* Reduz o tamanho da fonte */
+    }
+
+    #button2 {
+        width: 68%; /* Ajusta largura do botão específico */
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-top: 50%; /* Ajusta ainda mais para telas pequenas */
+    }
+
+    button {
+        width: 65%; /* Botões ainda maiores */
+        font-size: 14px; /* Fonte menor para economizar espaço */
+        white-space: none;
+    }
+
+    h1 {
+        font-size: 24px; /* Reduz tamanho do título */
+    }
+
+    p {
+        font-size: 16px; /* Reduz tamanho do texto */
+    }
+}
