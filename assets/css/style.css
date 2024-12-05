@@ -6,32 +6,39 @@
     }
 
     button {
-        width: 50%; /* Botões maiores para telas pequenas */
-        font-size: 16px; /* Reduz o tamanho da fonte */
+        width: 100%; /* Botões ocupando toda a largura disponível */
+        font-size: 16px; /* Tamanho de fonte maior para acessibilidade */
+        padding: 12px; /* Tamanho adequado para garantir um clique confortável */
+        box-sizing: border-box; /* Inclui o padding dentro da largura */
+        margin: 5px 0; /* Garante que os botões não se sobreponham */
     }
 
     #button_padrao {
-        width: 68%; /* Ajusta largura do botão específico */
-        margin-top: 5px;
+        width: 75%; /* Ajusta a largura do botão específico */
+        margin-top: 10px;
+        margin-left: 0; /* Remove a margem esquerda */
     }
 }
 
 @media (max-width: 480px) {
     body {
-        margin-top: 50%; /* Ajusta ainda mais para telas pequenas */
+        margin-top: 20%; /* Ajusta ainda mais para telas menores */
+        padding: 0 5px; /* Diminui o espaçamento lateral */
     }
 
     button {
-        width: 65%; /* Botões ainda maiores */
-        font-size: 14px; /* Fonte menor para economizar espaço */
-        white-space: none;
+        width: 60%; /* Botões ocupando toda a largura disponível */
+        font-size: 14px; /* Fonte menor para telas muito pequenas */
+        padding: 10px; /* Garante que o botão tenha um tamanho adequado */
+        margin: 10px 0; /* Garante um bom espaço entre os botões */
+        box-sizing: border-box; /* Garante que o padding seja incluído na largura */
     }
 
     h1 {
-        font-size: 24px; /* Reduz tamanho do título */
+        font-size: 22px; /* Reduz tamanho do título */
     }
 
     p {
-        font-size: 16px; /* Reduz tamanho do texto */
+        font-size: 14px; /* Reduz tamanho do texto */
     }
 }
