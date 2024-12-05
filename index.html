@@ -16,6 +16,7 @@
 
         h1 {
             color: white;
+            font-size: 40px;
         }
 
         p {
@@ -25,7 +26,7 @@
             background-color: #6495ed;
             color: white;
             border: none;
-            width: 20%;
+            width: 50%;
             text-align: center;
             border-radius: 20px;
             white-space: nowrap;
@@ -35,15 +36,16 @@
         }
 
         #button_padrao {
-            width: 22%;
+            margin-top: 20px;
+            width: 50%;
         }
     </style>
 </head>
 <body>
     <h1>Exercicio 2 de Java-Script</h1>
     <p>Faça um botão que mude as cores do corpo, do cabeçalho e do paragrafo.</p>
-    <button type="button" onclick="altera_color()">Mudar todo o Estilo da Página</button>
-    <button type="button" id="button_padrao" onclick="padrao_color()">Voltar ao Estilo Padrão da Página</button>
+    <button type="button" onclick="altera_color()">Mudar estilo</button><br>
+    <button type="button" id="button_padrao" onclick="padrao_color()">Estilo Padrão</button>
 </body>
 <script src="assets/script/main.js"></script>
 </html>
