@@ -1,5 +1,5 @@
 /* Estilos responsivos */
-@media (max-width: 768px) {
+@media screen (max-width: 768px) {
     body {
         margin-top: 10%; /* Reduz o espaço superior */
         padding: 0 10px; /* Adiciona espaçamento lateral */
@@ -20,7 +20,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media screen (max-width: 480px) {
     body {
         margin-top: 20%; /* Ajusta ainda mais para telas menores */
         padding: 0 5px; /* Diminui o espaçamento lateral */
