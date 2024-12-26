@@ -14,7 +14,7 @@
     }
 
     #button_padrao {
-        width: 75%; /* Ajusta a largura do botão específico */
+        width: 30%; /* Ajusta a largura do botão específico */
         margin-top: 10px;
         margin-left: 0; /* Remove a margem esquerda */
     }
@@ -27,7 +27,7 @@
     }
 
     button {
-        width: 60%; /* Botões ocupando toda a largura disponível */
+        width: 30%; /* Botões ocupando toda a largura disponível */
         font-size: 14px; /* Fonte menor para telas muito pequenas */
         padding: 10px; /* Garante que o botão tenha um tamanho adequado */
         margin: 10px 0; /* Garante um bom espaço entre os botões */
